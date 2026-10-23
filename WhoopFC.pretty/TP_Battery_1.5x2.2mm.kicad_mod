@@ -1,0 +1,106 @@
+(footprint "TP_Battery_1.5x2.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Battery pigtail solder pad 1.5 x 2.2 mm (22-24 AWG BT2.0 lead)")
+	(tags "test point pad SMD whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "adf32032-49be-423b-a50a-e0ea339c6f03")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "TP_Battery_1.5x2.2mm"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(uuid "82e7051f-5d0d-4033-9107-f1147779eeb1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9a2e766-9404-49ca-8822-7eb55eaee0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Battery pigtail solder pad 1.5 x 2.2 mm (22-24 AWG BT2.0 lead)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7695f138-8a5a-4e80-a3b9-c1bc61edac5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -1.35)
+		(end 1 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "190dca18-8524-453a-93c0-c30c4a4bb94b")
+	)
+	(fp_line
+		(start 1 -1.35)
+		(end 1 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24c8a33d-52f4-4ce1-87a9-92eb41a87902")
+	)
+	(fp_line
+		(start 1 1.35)
+		(end -1 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ede2f75a-7e93-4555-b615-d5ce51b8d6a4")
+	)
+	(fp_line
+		(start -1 1.35)
+		(end -1 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a36d33be-7fe6-4890-8f71-3c1d49f0d71e")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.5 2.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "83b67151-c8f8-4c8c-953f-0b3bae3829ea")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WhoopFC")(type "KiCad")(uri "${KIPRJMOD}/../WhoopFC.pretty")(options "")(descr "Shared with Whoop_1S_FC"))
+)

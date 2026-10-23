@@ -1,0 +1,134 @@
+(footprint "Pogo_1x04_P1.27mm_D0.9mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Pogo-pin contact pads, 4 x 0.9 mm round, 1.27 mm pitch (needs 1.27 mm pitch pogo pins in the jig) (USB: VBUS, D-, D+, GND). No connector fitted.")
+	(tags "pogo pogo-pin usb pad whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "31c48339-df4e-4075-bfcc-12e5f153b724")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Pogo_1x04_P1.27mm_D0.9mm"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "591e3db2-a57d-4dc6-8808-f10f178de7cc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bed3f22-b31c-4802-9baa-62cbd037522e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Pogo-pin contact pads, 4 x 0.9 mm round, 1.27 mm pitch (needs 1.27 mm pitch pogo pins in the jig) (USB: VBUS, D-, D+, GND). No connector fitted."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef5d6c69-9a1d-4a3c-94e9-76080ae9de98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -0.7)
+		(end 2.6 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "270f23aa-5811-4946-bd0f-cbe7c8a4869b")
+	)
+	(fp_line
+		(start 2.6 -0.7)
+		(end 2.6 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f18c793f-c190-432f-9569-c10b5945845b")
+	)
+	(fp_line
+		(start 2.6 0.7)
+		(end -2.6 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f672149d-40ad-424b-949a-5825dc85275d")
+	)
+	(fp_line
+		(start -2.6 0.7)
+		(end -2.6 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1de0697-122c-4db5-880a-8dc2fa06dc8d")
+	)
+	(fp_circle
+		(center -2.95 0)
+		(end -2.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9fb769b9-9917-484e-b5d7-af95a98d9bf8")
+	)
+	(pad "1" smd circle
+		(at -1.905 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f3d7b0c3-4f18-483a-9b38-7b6666d70cfe")
+	)
+	(pad "2" smd circle
+		(at -0.635 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6376f40b-b552-4b67-9094-9146e10e5b1d")
+	)
+	(pad "3" smd circle
+		(at 0.635 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4a74009c-562d-4551-a6d9-3e39c45f1f89")
+	)
+	(pad "4" smd circle
+		(at 1.905 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "119ef6cc-603c-46e7-92c6-b36af2e24c5b")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,106 @@
+(footprint "TP_Wire_0.8x1.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire solder pad 0.8 x 1.2 mm (30-32 AWG: UART, LED, buzzer, rail outputs)")
+	(tags "test point pad SMD whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "f4a5ffcf-4045-49ba-afc5-e07dc18f45e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "TP_Wire_0.8x1.2mm"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "b2f36b37-1ef6-4e93-af4b-b317814eefe1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c5f8d33-1fa9-4789-80f3-7add3f003985")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Wire solder pad 0.8 x 1.2 mm (30-32 AWG: UART, LED, buzzer, rail outputs)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "181b0eb4-6dbf-4ff7-892a-a5932f194b98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 -0.85)
+		(end 0.65 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5d66103-260e-4983-b117-82f5678777c3")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end 0.65 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdc1ce82-b90f-47c9-a22a-a5a44b385d6e")
+	)
+	(fp_line
+		(start 0.65 0.85)
+		(end -0.65 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc124dea-5c11-4f6e-9313-552fc49c0e69")
+	)
+	(fp_line
+		(start -0.65 0.85)
+		(end -0.65 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ced3c9f-13d4-4df5-b511-d8a4dcc0cf27")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.8 1.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7a8167e3-5fe9-43da-b738-14ce2a5cbbbf")
+	)
+	(embedded_fonts no)
+)

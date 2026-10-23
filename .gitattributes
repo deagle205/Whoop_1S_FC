@@ -1,0 +1,2 @@
+# store KiCad files byte-for-byte (they mix CRLF and LF)
+* -text

@@ -1,0 +1,126 @@
+(footprint "Antenna_Wire_Hole_D0.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5.8 GHz wire antenna: pad 1 = 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length), pad 2 = GND hole (second dipole half or coax braid). Replaces U.FL.")
+	(tags "antenna wire hole solder whoop vtx")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "0faeda1f-becd-4310-bd92-785ecf741b34")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Antenna_Wire_Hole_D0.6mm"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "f2ccd5cc-0d21-40f8-924f-ebb4612716f4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cea747e-485e-4d92-a5df-197775238304")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5.8 GHz wire antenna: pad 1 = 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length), pad 2 = GND hole (second dipole half or coax braid). Replaces U.FL."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b44f96f6-91e1-4b79-84ca-86baf70147ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bef87c5-965f-4425-bf75-d9f292f2ae8d")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end 0.75 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0671e796-a92e-4b1d-9d9f-00c4d4ff343f")
+	)
+	(fp_line
+		(start 0.75 2.25)
+		(end -0.75 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cccd7fb-b496-4500-8092-d377869bc227")
+	)
+	(fp_line
+		(start -0.75 2.25)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43d16959-3d4c-4b16-bfbd-77b3a163953e")
+	)
+	(fp_text user "ANT"
+		(at 1.4 0 90)
+		(layer "F.SilkS")
+		(uuid "69595f4f-5ab4-4157-9982-a27c9e5ad5e5")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3441b63-8d2a-4b37-9f46-bde815cf1feb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.5)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cb07043-2a0f-49a9-9f40-6bbf24edbaa2")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,131 @@
+(footprint "Pads_1x03_P2.0mm_1.5x2.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Camera solder pads, 3 x 1.5x2.0 mm at 2.0 mm pitch: 1 VIDEO, 2 5V, 3 GND. Replaces the JST-SH plug.")
+	(tags "camera pad solder whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "c710c359-4176-4e5e-8b5f-8a74de72d1e3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Pads_1x03_P2.0mm_1.5x2.0mm"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "051a8647-61d3-4495-99c3-a68a231bc81a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dde1932-4128-4ca0-a4c8-065f22a48bff")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Description" "Camera solder pads, 3 x 1.5x2.0 mm at 2.0 mm pitch: 1 VIDEO, 2 5V, 3 GND. Replaces the JST-SH plug."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7094453-7cd8-40ca-bcfa-647d9c0248ff")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3 -1.25)
+		(end 3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77a53316-0a55-4702-8d9b-3d9f51e64ffa")
+	)
+	(fp_line
+		(start 3 -1.25)
+		(end 3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29d788fd-eec3-4595-a111-6441a28a4391")
+	)
+	(fp_line
+		(start 3 1.25)
+		(end -3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91aff2af-a6b4-47b9-877d-427f0d3bd418")
+	)
+	(fp_line
+		(start -3 1.25)
+		(end -3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70e037b2-eabc-49ef-bab3-74d68d59247a")
+	)
+	(fp_circle
+		(center -3.25 -1.1)
+		(end -3.15 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cfad7482-30bd-437b-b204-203337e434a9")
+	)
+	(pad "1" smd roundrect
+		(at -2 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9aedebce-ba73-463d-b775-37891a079511")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "22475503-300c-4f32-9299-3619e7839df7")
+	)
+	(pad "3" smd roundrect
+		(at 2 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ed9e635f-ab64-4aa6-9e53-c5eb1d05cdb7")
+	)
+	(embedded_fonts no)
+)

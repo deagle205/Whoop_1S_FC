@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WhoopFC")(type "KiCad")(uri "${KIPRJMOD}/WhoopFC.kicad_sym")(options "")(descr "Custom symbols for the 1S whoop FC"))
+)

@@ -1,0 +1,124 @@
+(footprint "Antenna_Coax_Pads_1.13mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Direct-solder antenna pads for 1.13 mm micro coax: pad 1 = centre conductor, pad 2 = shield (GND). Replaces U.FL.")
+	(tags "antenna coax pad solder whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "469c8814-ac38-4a50-9276-be28d1c9bfd9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Antenna_Coax_Pads_1.13mm"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "effc183f-d0d2-4300-abd6-5ea3f97ee65f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bcc6221-6dd7-4c93-8fc9-ef14c938220a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Direct-solder antenna pads for 1.13 mm micro coax: pad 1 = centre conductor, pad 2 = shield (GND). Replaces U.FL."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58d0bfc4-1f2d-4227-9813-ee55562f9c97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.95 -0.75)
+		(end 0.95 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d973fc37-2db1-4408-a34c-8c55e071e446")
+	)
+	(fp_line
+		(start 0.95 -0.75)
+		(end 0.95 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28b71cbe-a906-4967-b35d-bdc5d50968b0")
+	)
+	(fp_line
+		(start 0.95 3.05)
+		(end -0.95 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d2c96b4-4cc3-4858-b200-7cf5f912fb5f")
+	)
+	(fp_line
+		(start -0.95 3.05)
+		(end -0.95 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74c75156-bd48-4064-8216-5f37643cbede")
+	)
+	(fp_text user "ANT"
+		(at 1.6 1.0 0)
+		(layer "F.SilkS")
+		(uuid "59032788-2e23-4337-bb1e-a236054e2470")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.8 1.0)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f9a0c6be-2e79-4210-bfe0-fd5bf80937ee")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.0)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "41653114-c75d-4a4d-a1ad-6f288690c55a")
+	)
+	(embedded_fonts no)
+)

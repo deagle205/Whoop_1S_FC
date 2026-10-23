@@ -1,0 +1,106 @@
+(footprint "TP_Wire_1.5x2.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire solder pad 1.5 x 2.0 mm (signal and rail wires: UART, LED, ESC signal)")
+	(tags "test point pad SMD whoop")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "8068dcc5-1ad6-4ce3-a9ba-65db016a988d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "TP_Wire_1.5x2.0mm"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(uuid "1099d316-c7d0-4516-91e4-75dcf13c6b26")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51f9575f-6e8e-487d-8dc7-b23da258bb1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Wire solder pad 1.5 x 2.0 mm (signal and rail wires: UART, LED, ESC signal)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3181dfc-82e1-40ac-80e6-e899a1976339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15166719-0677-446f-9040-5b19239772f1")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2c9f276-b0e1-4284-9c8b-3a47444df4f4")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88fab8e4-582b-475a-9433-e09b8659d83c")
+	)
+	(fp_line
+		(start -1 1.25)
+		(end -1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7f4fde9-dd09-4cc6-a527-a6a2435e8947")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f2024850-7bad-44d3-adf0-8c2c9232fd8a")
+	)
+	(embedded_fonts no)
+)

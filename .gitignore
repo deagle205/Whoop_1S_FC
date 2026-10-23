@@ -1,0 +1,13 @@
+# KiCad local history (each is its own git repo) and restore snapshots
+.history/
+_restore_backup_*/
+# Backups and lock/cache files
+*.bak
+*.before_*
+*-backups/
+~*.lck
+*.lck
+fp-info-cache
+__chk*
+# Per-user view settings
+*.kicad_prl

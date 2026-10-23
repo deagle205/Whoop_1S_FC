@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WhoopFC")(type "KiCad")(uri "${KIPRJMOD}/WhoopFC.pretty")(options "")(descr "Small test / solder pads for the 1S whoop FC"))
+)
