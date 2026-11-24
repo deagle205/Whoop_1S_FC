@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "5.8 GHz wire antenna: pad 1 = 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length), pad 2 = GND hole (second dipole half or coax braid). Replaces U.FL.")
+	(descr "5.8 GHz wire antenna: one 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length, ~12.5 mm). No GND hole. Replaces U.FL.")
 	(tags "antenna wire hole solder whoop vtx")
 	(property "Reference" "REF**"
 		(at 0 -1.1 0)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "5.8 GHz wire antenna: pad 1 = 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length), pad 2 = GND hole (second dipole half or coax braid). Replaces U.FL."
+	(property "Description" "5.8 GHz wire antenna: one 0.6 mm hole for the antenna wire (strip and solder a quarter-wave length, ~12.5 mm). No GND hole. Replaces U.FL."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,7 +67,7 @@
 	)
 	(fp_line
 		(start 0.75 -0.75)
-		(end 0.75 2.25)
+		(end 0.75 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "0671e796-a92e-4b1d-9d9f-00c4d4ff343f")
 	)
 	(fp_line
-		(start 0.75 2.25)
-		(end -0.75 2.25)
+		(start 0.75 0.75)
+		(end -0.75 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -86,7 +86,7 @@
 		(uuid "9cccd7fb-b496-4500-8092-d377869bc227")
 	)
 	(fp_line
-		(start -0.75 2.25)
+		(start -0.75 0.75)
 		(end -0.75 -0.75)
 		(stroke
 			(width 0.05)
@@ -113,14 +113,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f3441b63-8d2a-4b37-9f46-bde815cf1feb")
-	)
-	(pad "2" thru_hole circle
-		(at 0 1.5)
-		(size 1.1 1.1)
-		(drill 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "3cb07043-2a0f-49a9-9f40-6bbf24edbaa2")
 	)
 	(embedded_fonts no)
 )

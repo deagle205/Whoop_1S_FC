@@ -26605,9 +26605,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "67d5c12f-7bd5-45c7-b585-e8b9fbfa9cf2")
 		(property "Reference" "J801"
@@ -26620,7 +26620,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket 1x4 1.27"
+		(property "Value" "ESC SIG wire pads"
 			(at 607.02 123.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26630,7 +26630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
+		(property "Footprint" "WhoopFC:Pads_1x04_P1.8mm_1.5x2.0mm"
 			(at 604.52 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26652,7 +26652,7 @@
 				)
 			)
 		)
-		(property "Description" "Female 1x4 1.27 mm socket on F.Cu: the 4-in-1 ESC J1 pin header (on the ESC bottom) plugs in. Pin n = ESCn_SIG = MOTORn on the ESC. Pad 1 at the same XY as ESC J1 pad 1."
+		(property "Description" "Wire pads 1x4 1.5x2.0 mm, 1.8 mm pitch (same as the VTX link pads), no connector: solder a thin wire from each pad to the same pad on ESC J1. Pin n = ESCn_SIG = MOTORn on the ESC."
 			(at 604.52 121.92 0)
 			(hide yes)
 			(show_name no)

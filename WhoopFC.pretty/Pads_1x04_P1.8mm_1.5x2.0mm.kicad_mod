@@ -1,0 +1,138 @@
+(footprint "Pads_1x04_P1.8mm_1.5x2.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Board-to-board wire pads, 1x04 SMD 1.5x2.0 mm, 1.8 mm pitch (DShot ESC1-4_SIG). Solder wires, no part fitted.")
+	(tags "wire pad solder board-to-board whoop")
+	(property "Reference" "REF**"
+		(at 2.7 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "e26dda22-35e4-4ecd-9a09-ca839eb9ee17")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Pads_1x04_P1.8mm_1.5x2.0mm"
+		(at 2.7 1.6 0)
+		(layer "F.Fab")
+		(uuid "3e66682c-3bd6-4c63-b258-f1f1482b7f72")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "908c9b61-0c73-4234-b363-db579a48adaf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Description" "Board-to-board wire pads, 1x04 SMD 1.5x2.0 mm, 1.8 mm pitch (DShot ESC1-4_SIG). Solder wires, no part fitted."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc48fce4-3785-4c04-96cf-09ea307b2b54")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -1.25)
+		(end 6.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc7cc29f-c4cc-49e1-bf72-ff108857f53e")
+	)
+	(fp_line
+		(start 6.4 -1.25)
+		(end 6.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e80b3f72-f407-4033-8b12-bbad88d92b18")
+	)
+	(fp_line
+		(start 6.4 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "379da45c-2111-4436-9d8b-262509aabb9c")
+	)
+	(fp_line
+		(start -1 1.25)
+		(end -1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a38d7a22-caba-472b-8670-70b6f884223d")
+	)
+	(fp_circle
+		(center -1.25 -1.1)
+		(end -1.15 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4847ff99-4f6d-4a78-9a6c-93c2191c2202")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "dd9ab7a8-c639-43ef-b4af-45cec0dea04c")
+	)
+	(pad "2" smd roundrect
+		(at 1.8 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2c6884f4-a98b-45f1-bf5a-719c104569f7")
+	)
+	(pad "3" smd roundrect
+		(at 3.6 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "636c4a3f-55e4-4f13-aa9f-651f1476add3")
+	)
+	(pad "4" smd roundrect
+		(at 5.4 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c333475d-6157-4001-be78-25cb12072a2a")
+	)
+	(embedded_fonts no)
+)

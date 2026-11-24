@@ -1,0 +1,10 @@
+(version 1)
+# Board setup allows 0.175 mm hole clearance only so the rule below can use it;
+# everything else keeps 0.2 mm.
+(rule "Hole clearance 0.2"
+  (constraint hole_clearance (min 0.2mm)))
+# U101 WLCSP-81 is 0.4 mm pitch: 0.3/0.15 through vias in its pads land 0.175 mm
+# from neighbouring copper (PCBWay 6-layer "medium" tier allows 0.165 mm).
+(rule "U101 via-in-pad hole clearance"
+  (constraint hole_clearance (min 0.175mm))
+  (condition "A.Type == 'Via' && A.Hole_Size == 0.15mm && A.intersectsCourtyard('U101')"))

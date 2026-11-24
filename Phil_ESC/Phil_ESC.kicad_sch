@@ -20514,9 +20514,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "10fc8d02-347a-4297-8953-5f4d23264da8")
 		(property "Reference" "J1"
@@ -20530,7 +20530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DSHOT_IN"
+		(property "Value" "DSHOT_IN wire pads"
 			(at 66.04 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20541,7 +20541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "WhoopFC:Pads_1x04_P1.8mm_1.5x2.0mm"
 			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20563,7 +20563,7 @@
 				)
 			)
 		)
-		(property "Description" "DShot MOTOR1-4 from the FC: board-to-board pins, 1.27 mm pitch (power goes over the 4 corner screws)"
+		(property "Description" "DShot MOTOR1-4 from the FC: wire pads 1x4 1.5x2.0 mm, 1.8 mm pitch (same as the VTX link pads), no connector; solder a thin wire from each pad to the same pad on FC J801 (power goes over the 4 corner screws)"
 			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
